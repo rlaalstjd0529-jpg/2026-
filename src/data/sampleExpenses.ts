@@ -1,0 +1,50 @@
+import { ExpenseCategory, ExpenseItem } from "../types";
+
+export const DEFAULT_MONTHLY_BUDGET = 1200000;
+
+export const DEFAULT_CATEGORY_BUDGETS: Record<ExpenseCategory, number> = {
+  "식비": 220000,
+  "배달·외식": 180000,
+  "카페·간식": 70000,
+  "쇼핑·의류": 150000,
+  "생활·마트": 140000,
+  "교통·차량": 100000,
+  "구독·통신": 90000,
+  "문화·여가": 100000,
+  "건강·의료": 80000,
+  "기타": 70000,
+};
+
+export const SAMPLE_EXPENSES: ExpenseItem[] = [
+  { id: "exp-101", date: "2026-11-01", title: "배달의민족 치킨·맥주", category: "배달·외식", amount: 31500, memo: "주말 야식" },
+  { id: "exp-102", date: "2026-11-01", title: "스타벅스 아이스 아메리카노 외", category: "카페·간식", amount: 11200, memo: "디저트 포함" },
+  { id: "exp-103", date: "2026-11-02", title: "지하철 정기권 충전", category: "교통·차량", amount: 65000 },
+  { id: "exp-104", date: "2026-11-03", title: "회사 근처 김치찌개 점심", category: "식비", amount: 10500 },
+  { id: "exp-105", date: "2026-11-03", title: "메가커피 아메리카노", category: "카페·간식", amount: 2500 },
+  { id: "exp-106", date: "2026-11-04", title: "쿠팡 생필품·세제", category: "생활·마트", amount: 34800 },
+  { id: "exp-107", date: "2026-11-05", title: "넷플릭스 프리미엄 정기결제", category: "구독·통신", amount: 17000 },
+  { id: "exp-108", date: "2026-11-05", title: "유튜브 프리미엄", category: "구독·통신", amount: 14900 },
+  { id: "exp-109", date: "2026-11-06", title: "배달의민족 마라탕 야식", category: "배달·외식", amount: 24500, memo: "밤 11시 주문" },
+  { id: "exp-110", date: "2026-11-07", title: "무신사 가을 니트 충동구매", category: "쇼핑·의류", amount: 89000, memo: "세일 배너 보고 결제" },
+  { id: "exp-111", date: "2026-11-07", title: "스타벅스 돌체라떼", category: "카페·간식", amount: 6500 },
+  { id: "exp-112", date: "2026-11-08", title: "브런치 카페 식사", category: "배달·외식", amount: 38000 },
+  { id: "exp-113", date: "2026-11-09", title: "편의점 도시락·음료", category: "식비", amount: 7800 },
+  { id: "exp-114", date: "2026-11-10", title: "알뜰폰 통신요금", category: "구독·통신", amount: 33000 },
+  { id: "exp-115", date: "2026-11-11", title: "티빙·웨이브 중복 구독", category: "구독·통신", amount: 23800 },
+  { id: "exp-116", date: "2026-11-12", title: "스타벅스 아메리카노", category: "카페·간식", amount: 4700 },
+  { id: "exp-117", date: "2026-11-12", title: "배달의민족 족발 보쌈", category: "배달·외식", amount: 39000, memo: "퇴근 후 피곤해서 주문" },
+  { id: "exp-118", date: "2026-11-13", title: "올리브영 스킨케어·립밤", category: "쇼핑·의류", amount: 46500 },
+  { id: "exp-119", date: "2026-11-14", title: "심야 택시 귀가", category: "교통·차량", amount: 21400 },
+  { id: "exp-120", date: "2026-11-14", title: "주말 영화 예매 + 팝콘", category: "문화·여가", amount: 34000 },
+  { id: "exp-121", date: "2026-11-15", title: "이마트 장보기 (식재료)", category: "생활·마트", amount: 64200 },
+  { id: "exp-122", date: "2026-11-16", title: "스타벅스 샌드위치+커피", category: "카페·간식", amount: 12900 },
+  { id: "exp-123", date: "2026-11-17", title: "직장 점심 돈까스", category: "식비", amount: 12000 },
+  { id: "exp-124", date: "2026-11-18", title: "쿠팡이츠 야식 떡볶이", category: "배달·외식", amount: 22000, memo: "최소주문 채우려 사이드 추가" },
+  { id: "exp-125", date: "2026-11-19", title: "무신사 스니커즈 세일", category: "쇼핑·의류", amount: 118000 },
+  { id: "exp-126", date: "2026-11-20", title: "스타벅스 바닐라라떼", category: "카페·간식", amount: 5500 },
+  { id: "exp-127", date: "2026-11-20", title: "금요일 저녁 회식 2차", category: "배달·외식", amount: 44000 },
+  { id: "exp-128", date: "2026-11-21", title: "배달의민족 햄버거 세트", category: "배달·외식", amount: 19500 },
+  { id: "exp-129", date: "2026-11-21", title: "스타벅스 케이크·아메리카노", category: "카페·간식", amount: 13800 },
+  { id: "exp-130", date: "2026-11-22", title: "약국 종합비타민", category: "건강·의료", amount: 28000 },
+  { id: "exp-131", date: "2026-11-22", title: "집밥용 반찬·계란 마트", category: "생활·마트", amount: 26500 },
+];

@@ -1,0 +1,8 @@
+{
+  "name": "세이브노트 — AI 소비 습관 분석 가계부",
+  "description": "날짜별 지출 내역을 기록하고 AI로 과소비 구간, 소비 습관, 이번 달 절약 가능 금액과 맞춤 절약 방안을 분석해 주는 스마트 가계부입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
